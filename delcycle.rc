@@ -1,0 +1,40 @@
+//////////////////////////////////////////////////////////////////////
+// 	WarpSharp リソース
+//	Resource Script
+//////////////////////////////////////////////////////////////////////
+
+//#include <winres.h>
+
+
+//////////////////////////////////////////////////////////////////////
+//  VERSION INFO
+//
+VS_VIRSION_INFO VERSIONINFO
+ FILEVERSION    0,0,1,0
+ PRODUCTVERSION 0,0,1
+ FILEFLAGSMASK  0x3FL
+ FILEFLAGS      0x0L
+ FILEOS         VOS__WINDOWS32
+ FILETYPE       VFT_DLL
+ FILESUBTYPE    0x0L
+{
+    BLOCK "StringFileInfo"
+	{
+        BLOCK "041103A4"
+		{
+			VALUE "Comments",         "0.98系専用\0"
+            VALUE "FileDescription",  "周期間引き for AviUtl 0.98系\0"
+            VALUE "FileVersion",      "0.0.1.0\0"
+            VALUE "InternalName",     "delcycle\0"
+            VALUE "LegalCopyright",   "(C) MakKi\0"
+            VALUE "OriginalFilename", "delcycle.aup\0"
+            VALUE "ProductName",      "周期間引き for AviUtl 0.98x\0"
+            VALUE "ProductVersion",   "0.01\0"
+		}
+	}
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x411, 932
+    }
+}
+
